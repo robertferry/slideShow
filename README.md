@@ -1,10 +1,6 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Corgi Carousel
 
-![](https://imgur.com/pq7zXBJ.png)
-
-Carousels are essentially slideshows used to cycle through a series of content. Today, we'll be building a very simple one to cycle through a set of images using HTML/CSS/JavaScript.
+ slideshows are used to cycle through a series of content. Today, we'll be building a very simple one to cycle through a set of images using HTML/CSS/JavaScript.
 
 ## Setup
 
@@ -48,7 +44,8 @@ Before we can move onto the javascript file to give our carousel buttons some fu
 1. Create a variable that will hold all of the images with the class "images":
   `const images = document.getElementsByClassName('images');`
 1. Inside the event listener for our "next" class, set previousImgIndex to currentImgIndex, and increment      currentImgIndex by 1.
-1. Next, inside the event listener for our "next" class, select the currently showing carousel image with:  
+2. 
+3. Next, inside the event listener for our "next" class, select the currently showing carousel image with:  
   `images[previousImageIndex]`
 1. Hide that currently showing carousel image by tacking on `.style.display = 'none';`
 1. Show the new currentImgIndex image by using: `images[currentImgIndex].style.display = 'block'`
