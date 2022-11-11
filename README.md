@@ -86,6 +86,4 @@ Before we can move onto the javascript file to give our carousel buttons some fu
   - :red_circle: Remember the first index in an array is 0, so we have to specify currentImgIndex to become the LAST image's index.
 
 
-## BONUS
 
-:dog: Some of this code isn't quite DRY, try to dry it up!
