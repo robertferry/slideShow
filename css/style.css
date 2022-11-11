@@ -1,0 +1,69 @@
+/* ======= GENERAL ======== */
+body {
+  background: #f9f9f9;
+  -moz-user-select:none; /* firefox */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE*/
+  user-select: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container > img {
+  width: 70%;
+}
+.container > h1 {
+  font-family: 'Montserrat', impact;
+  font-weight: 800;
+  font-size: 2.5em;
+  margin-top: -1%;
+  color: #4caaa8;
+  text-shadow: 2px 2px #f2cd99;
+  letter-spacing: 2px;
+}
+/* ======= CAROUSEL SECTION ======== */
+.carousel-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.carousel-images {
+  -moz-user-select:none; /* firefox */
+   -webkit-user-select: none; /* Safari */
+   -ms-user-select: none; /* IE*/
+   user-select: none; /* Standard syntax */
+   float: left;
+   width:  300px;
+   height: 300px;
+   object-fit: cover;
+  background: #4caaa8;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing:border-box;
+  box-shadow: 4px 4px #f2cd99;
+}
+.carousel-images img {
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+}
+.carousel-images img:first-of-type {
+  display: block;
+}
+.carousel-button {
+  align-self: center;
+  background: #f2cd99;
+  color: #888;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px #fa8d8e;
+}
+.carousel-button:hover {
+  cursor: pointer;
+  background: #4caaa8;
+  box-shadow: 1px 1px #f2cd99;
+  color: white;
+}
